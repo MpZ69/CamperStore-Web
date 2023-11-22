@@ -1,2 +1,2 @@
 # ToyoIndo-Web
-ToyoIndo merupakan website penjualan mobil sederhana. Dibuat untuk tugas akhir mata kuliah web
+ToyoIndo-Web adalah proyek website inovatif yang saya kembangkan sebagai bagian dari tugas akhir mata kuliah web. Didesain khusus untuk pengalaman pengguna yang optimal, platform ini menawarkan solusi penjualan mobil yang intuitif dan responsif. Jelajahi kemudahan berbelanja mobil secara online melalui ToyoIndo-Web, di mana fungsionalitas canggih dan antarmuka yang ramah pengguna bertemu dalam satu tempat.
