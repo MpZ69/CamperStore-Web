@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamperStore - List Produk</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .judul_produk {
+            font-weight: bold;
+            font-size: 14pt;
+        }
+
+        .harga_produk {
+            font-weight: 200;
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- KODE KERAMAT, WAJIB DI COPY PASTE -->
+    <div class="navigation_bar">
+        <script src="../../script/top_bar.js"></script>
+        <script>
+            document.querySelector(".navigation_bar").innerHTML = getTopBar("List Produk");
+        </script>
+    </div>
+    <!--==================================== -->
+
+    <table>
+      <tr>
+        <td>
+            <img height="120px  " src="asset/picture/tas1.jpg" alt="">
+            <div class="judul_produk">
+                Tas keren 1
+            </div>
+            <div class="harga_produk">
+                Rp 120,000
+            </div>
+        </td>
+        <td>
+            <a href="pages/tampilkan_produk/tas2.html">
+                <img height="120px  " src="asset/picture/tas2.jpeg" alt="">
+            
+                <div class="judul_produk">
+                    Tas keren 2
+                </div>
+            
+                <div class="harga_produk">
+                    Rp 150,000
+                </div>
+            </a>
+        </td>
+    </tr>  
+    </table>
+</body>
+</html>

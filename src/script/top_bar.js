@@ -1,5 +1,5 @@
 function getListMenu(activeTopBar) {
-    var listMenu = ["Home", "Mobil", "Pelayanan", "Tentang", "Hubungi"];
+    var listMenu = ["Home", "List Produk"];
     var menuListHTML = "";
 
     for (var i = 0; i < listMenu.length; i++) {
