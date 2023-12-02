@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@300;400&display=swap');
+
 a {
     text-decoration: none; /* Menghapus garis bawah (underline) */
     color: inherit; /* Mengambil warna teks dari induknya (dalam hal ini, warna default) */
