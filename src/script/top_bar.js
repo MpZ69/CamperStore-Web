@@ -4,9 +4,9 @@ function getListMenu(activeTopBar) {
 
     for (var i = 0; i < listMenu.length; i++) {
         if (listMenu[i] === activeTopBar) {
-            menuListHTML += `<li><a class="active" href="../${listMenu[i]}/index.html">${listMenu[i]}</a></li>`;
+            menuListHTML += `<li><a class="active" href="../${listMenu[i]}/index.php">${listMenu[i]}</a></li>`;
         } else {
-            menuListHTML += `<li><a href="../${listMenu[i]}/index.html">${listMenu[i]}</a></li>`;
+            menuListHTML += `<li><a href="../${listMenu[i]}/index.php">${listMenu[i]}</a></li>`;
         }
     }
 
