@@ -68,15 +68,16 @@ a {
     padding: 30px 0px 5px 0px;
     font-size: 20pt;
     font-family: 'Quicksand', serif;
-    color: #383638;
+    color: #1B1447;
 }
 
 .product {
+    background-color: #f6f6f6;
     width: 500px; padding: 20px 20px 20px 20px;
 }
 
 .product:hover {
-    background-color: #f2f0f0;
+    background-color: #d6d4d4;
 }
 
 

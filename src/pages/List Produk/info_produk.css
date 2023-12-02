@@ -46,14 +46,13 @@
     font-family: "Quicksand", serif;
     font-size: 22pt;
     width: 600px;
-    padding: 10px 0px 10px 0px;
 }
 
 .harga {
     color: #ad1337;
-    font-size: 20pt;
+    font-size: 25pt;
     font-family: "Quicksand", serif;
-    padding: 10px 0px 10px 0px;
+    padding: 5px 0px 5px 0px;
 }
 
 .deskripsi {
