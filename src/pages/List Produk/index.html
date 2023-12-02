@@ -8,27 +8,68 @@
     <script src="view_product.js"></script>
 </head>
 <body>
-    <table>
-        <tr>
-            <td class="product1x1" style="padding-right: 20px;">
-                <script>
-                    document.querySelector(".product1x1").innerHTML = getViewProduct(
-                        "data/sepatu/hipzo-sepatu-gunung-kerja/hipzo-sepatung-gunung-kerja.jpg",
-                        "Sepatu Pria Hiking Casual Hipzo Sepatu Gunung Kerja Riding Terbaru - Navy 41",
-                        "135.000"
-                    );
-                </script>
-            </td>
-            <td class="product1x2">
-                <script>
-                    document.querySelector(".product1x2").innerHTML = getViewProduct(
-                        "data/sepatu/kanky-kitadake-gunung-casual/kanky-story-kitadake-gunung-casual-sportstyle.jpg",
-                        "Kanky Story Kitadake - Sepatu Gunung Casual SportStyle Pria - Green L. Green, 39",
-                        "388.800"
-                    );
-                </script>
-            </td>
-        </tr>
-    </table>
+    <div style="padding-left: 20px;">
+        <table>
+            <!-- SEPATU GUNUNG - 1-->
+            <tr>
+                <td>
+                    <div class="category">
+                        Sepatu Gunung
+                    </div>
+                </td>
+                
+            </tr>
+            <tr>
+                <td class="product1x1" style="padding-right: 20px;">
+                    <script>
+                        document.querySelector(".product1x1").innerHTML = getViewProduct(
+                            "data/sepatu/hipzo-sepatu-gunung-kerja/hipzo-sepatung-gunung-kerja.jpg",
+                            "Sepatu Pria Hiking Casual Hipzo Sepatu Gunung Kerja Riding Terbaru - Navy 41",
+                            "135.000"
+                        );
+                    </script>
+                </td>
+                <td class="product1x2">
+                    <script>
+                        document.querySelector(".product1x2").innerHTML = getViewProduct(
+                            "data/sepatu/kanky-kitadake-gunung-casual/kanky-story-kitadake-gunung-casual-sportstyle.jpg",
+                            "Kanky Story Kitadake - Sepatu Gunung Casual SportStyle Pria - Green L. Green, 39",
+                            "388.800"
+                        );
+                    </script>
+                </td>
+            </tr>
+
+            <!-- TAS GUNUNG - 2 -->
+            <tr>
+                <td>
+                    <div class="category">
+                        Tas Gunung
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="product2x1" style="padding-right: 20px;">
+                    <script>
+                        document.querySelector(".product2x1").innerHTML = getViewProduct(
+                            "data/tas/carrier-nature-hike-70l/carrier-nature-hike-70l.jpg",
+                            "Carrier Naturehike 70L Tas Gunung Keril Hiking Kerir Outdoor Pendaki - Brown",
+                            "1.146.000"
+                        );
+                    </script>
+                </td>
+                <td class="product2x2" style="padding-right: 20px;">
+                    <script>
+                        document.querySelector(".product2x2").innerHTML = getViewProduct(
+                            "data/tas/eiger-rhinos-45-ng-carrier/eiger-rhinos-45-ng-carrier.webp",
+                            "EIGER RHINOS 45 NG CARRIER",
+                            "1.139.050"
+                        );
+                    </script>
+                </td>
+            </tr>
+
+        </table>
+    </div>
 </body>
 </html>
