@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@300;400&display=swap');
+a {
+    text-decoration: none; /* Menghapus garis bawah (underline) */
+    color: inherit; /* Mengambil warna teks dari induknya (dalam hal ini, warna default) */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    width: 350px;padding: 10px 20px 10px 20px;
+}
+
+.product:hover {
+    background-color: #f2f0f0;
+    width: 350px;padding: 10px 20px 10px 20px;
+}
+
+
+.product_image {
+    padding-bottom: 30px;
+}
+
+.product_title {
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14pt;
+}
+
+.product_price {
+    font-size: 13pt;
+    font-family: "Quicksand", serif;
+}

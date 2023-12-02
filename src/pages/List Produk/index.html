@@ -4,51 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CamperStore - List Produk</title>
-    <link rel="stylesheet" href="../styles.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        .judul_produk {
-            font-weight: bold;
-            font-size: 14pt;
-        }
-
-        .harga_produk {
-            font-weight: 200;
-            color: red;
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <script src="view_product.js"></script>
 </head>
 <body>
     <table>
-      <tr>
-        <td>
-            <img height="120px  " src="asset/picture/tas1.jpg" alt="">
-            <div class="judul_produk">
-                Tas keren 1
-            </div>
-            <div class="harga_produk">
-                Rp 120,000
-            </div>
-        </td>
-        <td>
-            <a href="pages/tampilkan_produk/tas2.html">
-                <img height="120px" src="asset/picture/tas2.jpeg" alt="">
-            
-                <div class="judul_produk">
-                    Tas keren 2
-                </div>
-            
-                <div class="harga_produk">
-                    Rp 150,000
-                </div>
-            </a>
-        </td>
-    </tr>  
+        <tr>
+            <td class="product1x1" style="padding-right: 20px;">
+                <script>
+                    document.querySelector(".product1x1").innerHTML = getViewProduct(
+                        "data/sepatu/hipzo-sepatu-gunung-kerja/hipzo-sepatung-gunung-kerja.jpg",
+                        "Sepatu Pria Hiking Casual Hipzo Sepatu Gunung Kerja Riding Terbaru - Navy 41",
+                        "135.000"
+                    );
+                </script>
+            </td>
+            <td class="product1x2">
+                <script>
+                    document.querySelector(".product1x2").innerHTML = getViewProduct(
+                        "data/sepatu/kanky-kitadake-gunung-casual/kanky-story-kitadake-gunung-casual-sportstyle.jpg",
+                        "Kanky Story Kitadake - Sepatu Gunung Casual SportStyle Pria - Green L. Green, 39",
+                        "388.800"
+                    );
+                </script>
+            </td>
+        </tr>
     </table>
 </body>
 </html>
