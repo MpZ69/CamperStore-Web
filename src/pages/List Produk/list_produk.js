@@ -14,7 +14,7 @@ function getViewProduct(imagePath, nama, harga, description) {
         <a href="${url}">
             <div class="product">
                 <div class="product_image">
-                    <img height="250px" src="${imagePath}" alt="">
+                    <img height="450px" src="${imagePath}" alt="">
                 </div>
                 <div class="product_title">
                     ${nama}

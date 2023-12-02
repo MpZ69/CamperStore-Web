@@ -8,7 +8,14 @@
     <script src="list_produk.js"></script>
 </head>
 <body>
-    <div style="padding-left: 20px;">
+    <div class="navigation_bar">
+        <script src="../../script/top_bar.js"></script>
+        <script>
+            document.querySelector(".navigation_bar").innerHTML = getTopBar("List Produk");
+        </script>
+    </div>
+
+    <div class="content">
         <table>
             <!-- SEPATU GUNUNG - 1-->
             <tr>
