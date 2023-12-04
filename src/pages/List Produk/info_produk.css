@@ -36,6 +36,10 @@
     height: 600px;
 }
 
+.content {
+    padding-top: 50px;
+}
+
 .info {
     vertical-align: top;
     text-align: left;
@@ -60,4 +64,12 @@
     color: #616362;
     font-family: "Quicksand";
     font-weight: 500;
+}
+
+td {
+    vertical-align: top;
+}
+
+.nav_button {
+    font-family: "Quicksand";
 }

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product_info {
+    width: 600px;
+    padding: 10px 0px 10px 20px;
+}
+
+.nama {
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    color: #383638;
+}
+
+.harga {
+    color: #ad1337;
+    font-size: 20pt;
+    font-family: "Quicksand", serif;
+    padding: 10px 0px 10px 0px;
+}
