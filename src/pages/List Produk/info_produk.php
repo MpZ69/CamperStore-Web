@@ -11,21 +11,12 @@
     <link rel="stylesheet" href="info_produk.css">
 </head>
 <body>
-    <!-- nav bar -->
-    <div class="navigation_bar">
-        <nav>
-            <label class="logo">
-                <img style="padding-top:10px;" height="70px" src="../../logo.png" alt="">
-            </label>
-            <ul>
-                <li><a class="nav_button" href="../Home">Home</a></li>
-                <li><a class="nav_button" href="../List%20Produk">Produk</a></li>
-                <li><a class="nav_button" href="">Tentang</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- nav bar -->
-
+    <div class="navigation_bar">    
+        <script src="../navbar.js"></script>
+        <script>
+            document.querySelector('.navigation_bar').innerHTML = getNavBar();
+        </script>
+    </div>  
     <div style="height: 75px;"></div>
     <center>
         <div class="content">

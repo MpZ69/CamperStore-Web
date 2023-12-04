@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,21 +11,14 @@
     <link rel="stylesheet" href="beli_produk.css">
     <link rel="stylesheet" href="../styles.css">
 </head>
+
 <body>
-        <!-- nav bar -->
-        <div class="navigation_bar">
-        <nav>
-            <label class="logo">
-                <img style="padding-top:10px;" height="70px" src="../../logo.png" alt="">
-            </label>
-            <ul>
-                <li><a class="nav_button" href="../Home">Home</a></li>
-                <li><a class="nav_button" href="../List%20Produk">Produk</a></li>
-                <li><a class="nav_button" href="">Tentang</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- nav bar -->
+    <div class="navigation_bar">
+        <script src="../navbar.js"></script>
+        <script>
+            document.querySelector('.navigation_bar').innerHTML = getNavBar();
+        </script>
+    </div>  
 
     <div style="height: 100px;"></div>
     <center>
@@ -34,7 +28,7 @@
                 <td style="vertica-align: center;">
                     <?php
                         $imagePath = $_POST['imagePath'];
-                        echo "<img height=\"400px\" src=\"$imagePath\" alt=\"\">";
+                        echo "<img height=\"200px\" src=\"$imagePath\" alt=\"\">";
                     ?>
                 </td>
                 <td style="vertical-align: top;">
@@ -54,8 +48,42 @@
                     </div>
                 </td>
             </tr>
+            <tr>
+                <td colspan=2 style="padding-top:20px;">
+                    <div class="form-container">
+                        <div class="form-title">
+                            Alamat & Pembayaran
+                        </div>
+
+                        <form action="proses_pembelian.php" method="post">
+                            <label class = "input_title" for="nama">Nama:</label>
+                            <input class="input_form" type="text" id="nama" name="nama" required>
+
+                            <label class = "input_title" for="alamat">Alamat:</label>
+                            <input class="input_form" type="text" id="alamat" name="alamat" required>
+
+                            <label class = "input_title" for="no_telp">No. Telp:</label>
+                            <input class="input_form" type="text" id="no_telp" name="no_telp" required>
+
+                            <label class = "input_title" for="email">Email:</label>
+                            <input class="input_form" type="text" id="email" name="email" required>
+
+
+                            <label class = "input_title" for="jumlah_pcs"> Jumlah (PCS)</label>
+                            <input class="input_form" type="number" name="jumlah_pcs" id="jumlah_pcs">
+
+                            <label class = "input_title" for="metode_pembayaran">Metode Pembayaran:</label>
+                            <select id="metode_pembayaran" name="metode_pembayaran" required>
+                                <option value="transfer_bank">Cash On Delivery (COD)</option>
+                            </select>
+
+                            <button type="submit">Pesan Sekarang</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
         </table>
-    </div>
     </center>
 </body>
+
 </html>
