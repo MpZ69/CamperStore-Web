@@ -4,3 +4,15 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+.buttonKembali {
+    font-family: "Quicksand";
+    background-color: #ad1337; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 15px 15px; /* Padding atas dan bawah 15px, kiri dan kanan 20px */
+    font-size: 18px; /* Ukuran teks */
+    border: none; /* Tanpa border */
+    border-radius: 5px; /* Radius sudut */
+    cursor: pointer; /* Pointer saat diarahkan */
+    transition: background-color 0.3s; /* Transisi warna latar belakang 0.3 detik */
+}

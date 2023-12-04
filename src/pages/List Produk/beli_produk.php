@@ -56,8 +56,8 @@
                         </div>
 
                         <form action="proses_pembelian.php" method="post">
-                            <label class = "input_title" for="nama">Nama:</label>
-                            <input class="input_form" type="text" id="nama" name="nama" required>
+                            <label class = "input_title" for="nama_user">Nama:</label>
+                            <input class="input_form" type="text" id="nama_user" name="nama_user" required>
 
                             <label class = "input_title" for="alamat">Alamat:</label>
                             <input class="input_form" type="text" id="alamat" name="alamat" required>
@@ -67,6 +67,11 @@
 
                             <label class = "input_title" for="email">Email:</label>
                             <input class="input_form" type="text" id="email" name="email" required>
+                           
+                            <input type="hidden" name="nama" value="<?php echo $_POST['nama']; ?>">
+                            <input type="hidden" name="harga" value="<?php echo $_POST['harga']; ?>">
+                            <input type="hidden" name="deskripsi" value="<?php echo $_POST['deskripsi']; ?>">
+                            <input type="hidden" name="imagePath" value="<?php echo $_POST['imagePath']; ?>">
 
 
                             <label class = "input_title" for="jumlah_pcs"> Jumlah (PCS)</label>
