@@ -79,7 +79,7 @@
 
                             <label class = "input_title" for="metode_pembayaran">Metode Pembayaran:</label>
                             <select id="metode_pembayaran" name="metode_pembayaran" required>
-                                <option value="transfer_bank">Cash On Delivery (COD)</option>
+                                <option value="COD">Cash On Delivery (COD)</option>
                             </select>
 
                             <button type="submit">Pesan Sekarang</button>
