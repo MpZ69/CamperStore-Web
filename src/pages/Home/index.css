@@ -4,3 +4,7 @@
     text-decoration: 0;
     box-sizing: border-box;
 }
+
+.content {
+    width:90%;
+}

@@ -10,7 +10,6 @@ function getNavBar(){
             <ul>
                 <li><a class="nav_button" href="../Home">Home</a></li>
                 <li><a class="nav_button" href="../List%20Produk">Produk</a></li>
-                <li><a class="nav_button" href="">Tentang</a></li>
             </ul>
         </nav>
     <!-- nav bar -->
