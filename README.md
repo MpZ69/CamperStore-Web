@@ -1,2 +1,2 @@
-# CamperStore-Web
+# Camper Store-Web
 CamperStore adalah proyek website inovatif yang kami kembangkan sebagai bagian dari tugas akhir mata kuliah web. Didesain khusus untuk pengalaman pengguna yang optimal, platform ini menawarkan solusi pembelian barang yang intuitif dan responsif. Jelajahi kemudahan berbelanja mobil secara online melalui ToyoIndo-Web, di mana fungsionalitas canggih dan antarmuka yang ramah pengguna bertemu dalam satu tempat.
